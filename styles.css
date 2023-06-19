@@ -1,0 +1,86 @@
+
+
+h2 {
+    font-size: 45px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    color: gray;
+}
+
+ul {
+    font-style: none;
+    overflow-y: scroll;
+    height: 500px;
+    width: 500px;
+    border-radius: 10px;
+    padding-left: 25px;
+    margin: auto;
+}
+
+li {
+    list-style: none;
+    font-size: 21px;
+    margin-top: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+}
+
+a:hover{
+    font-weight: 400;
+}
+
+
+.imagen img{
+    height: 100vh;
+    width:auto;
+    padding-left: 100px;
+}
+
+.contenedor{
+    display:flex;
+    gap: 120px;
+}
+
+.departamentos{
+    padding: auto;
+    margin: auto;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    font-size:30px ;
+}
+
+
+
+.contenedorGenerico{
+    display: flex;
+}
+
+.imagenGenerico{
+    display: flex;
+    position: relative;
+    width: 650px;
+}
+.imagenGenerico img{
+    position: fixed;
+    height: 600px;
+    top: 120px;
+}
+.imagenGenerico h1{
+    position: fixed;
+    height: 700px;
+    top: 90px;
+    margin: auto;
+    padding-left: 50px;
+}
+.testimonios{
+    width: 50%; 
+    padding: auto;
+}
